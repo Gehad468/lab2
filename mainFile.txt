@@ -1,0 +1,5 @@
+==>To delete a local branch
+git branch -d dev or test
+
+==>To delete a remote branch
+git push origin :dev or test
