@@ -3,3 +3,15 @@ git branch -d dev or test
 
 ==>To delete a remote branch
 git push origin :dev or test
+
+
+==>To list tags
+git tag
+git tag --list
+
+==>To delete a tag locally
+git tag -d tagName
+
+==>To delete a tag remotely
+git push origin --delete tagName
+
